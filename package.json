@@ -1,0 +1,22 @@
+{
+  "name": "Challenge1",
+  "version": "1.0.0",
+  "description": "##Challenge 1",
+  "main": "challenge_1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fobabett/Challenge_1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fobabett/Challenge_1/issues"
+  },
+  "homepage": "https://github.com/fobabett/Challenge_1",
+  "devDependencies": {
+    "chai": "^1.9.2"
+  }
+}

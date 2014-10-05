@@ -1,9 +1,9 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'jasmine-node', '-g' ]
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'mocha' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.32
-4 verbose cache add [ 'jasmine-node', null ]
-5 verbose cache add name=undefined spec="jasmine-node" args=["jasmine-node",null]
+4 verbose cache add [ 'mocha', null ]
+5 verbose cache add name=undefined spec="mocha" args=["mocha",null]
 6 verbose parsed url { protocol: null,
 6 verbose parsed url   slashes: null,
 6 verbose parsed url   auth: null,
@@ -13,183 +13,220 @@
 6 verbose parsed url   hash: null,
 6 verbose parsed url   search: null,
 6 verbose parsed url   query: null,
-6 verbose parsed url   pathname: 'jasmine-node',
-6 verbose parsed url   path: 'jasmine-node',
-6 verbose parsed url   href: 'jasmine-node' }
-7 silly lockFile bba04ce4-jasmine-node jasmine-node
-8 verbose lock jasmine-node /Users/shant3washere/.npm/bba04ce4-jasmine-node.lock
-9 silly lockFile bba04ce4-jasmine-node jasmine-node
-10 silly lockFile bba04ce4-jasmine-node jasmine-node
-11 verbose addNamed [ 'jasmine-node', '' ]
+6 verbose parsed url   pathname: 'mocha',
+6 verbose parsed url   path: 'mocha',
+6 verbose parsed url   href: 'mocha' }
+7 silly lockFile a619da43-mocha mocha
+8 verbose lock mocha /Users/shant3washere/.npm/a619da43-mocha.lock
+9 silly lockFile a619da43-mocha mocha
+10 silly lockFile a619da43-mocha mocha
+11 verbose addNamed [ 'mocha', '' ]
 12 verbose addNamed [ null, '*' ]
-13 silly lockFile b74de4f8-jasmine-node jasmine-node@
-14 verbose lock jasmine-node@ /Users/shant3washere/.npm/b74de4f8-jasmine-node.lock
-15 silly addNameRange { name: 'jasmine-node', range: '*', hasData: false }
-16 verbose request where is /jasmine-node
+13 silly lockFile b9899f31-mocha mocha@
+14 verbose lock mocha@ /Users/shant3washere/.npm/b9899f31-mocha.lock
+15 silly addNameRange { name: 'mocha', range: '*', hasData: false }
+16 verbose request where is /mocha
 17 verbose request registry https://registry.npmjs.org/
-18 verbose request id 39c70230440dcaf6
-19 verbose url raw /jasmine-node
-20 verbose url resolving [ 'https://registry.npmjs.org/', './jasmine-node' ]
-21 verbose url resolved https://registry.npmjs.org/jasmine-node
-22 verbose request where is https://registry.npmjs.org/jasmine-node
-23 info trying registry request attempt 1 at 09:25:37
-24 http GET https://registry.npmjs.org/jasmine-node
-25 http 200 https://registry.npmjs.org/jasmine-node
+18 verbose request id f9ee58052d9d21f5
+19 verbose url raw /mocha
+20 verbose url resolving [ 'https://registry.npmjs.org/', './mocha' ]
+21 verbose url resolved https://registry.npmjs.org/mocha
+22 verbose request where is https://registry.npmjs.org/mocha
+23 info trying registry request attempt 1 at 13:58:04
+24 http GET https://registry.npmjs.org/mocha
+25 http 200 https://registry.npmjs.org/mocha
 26 silly registry.get cb [ 200,
-26 silly registry.get   { date: 'Sat, 04 Oct 2014 19:25:38 GMT',
-26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
-26 silly registry.get     etag: '"2J7W90BYO2DLN7YAAMBP95XYG"',
+26 silly registry.get   { date: 'Sat, 04 Oct 2014 23:58:04 GMT',
+26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"EKGYWLGY65FLMCHH7UEBPKATA"',
 26 silly registry.get     'content-type': 'application/json',
 26 silly registry.get     'cache-control': 'max-age=60',
-26 silly registry.get     'content-length': '96022',
+26 silly registry.get     'content-length': '101663',
 26 silly registry.get     'accept-ranges': 'bytes',
 26 silly registry.get     via: '1.1 varnish',
-26 silly registry.get     age: '30414',
-26 silly registry.get     'x-served-by': 'cache-ord1731-ORD',
+26 silly registry.get     age: '2248',
+26 silly registry.get     'x-served-by': 'cache-lax1427-LAX',
 26 silly registry.get     'x-cache': 'HIT',
-26 silly registry.get     'x-cache-hits': '1',
-26 silly registry.get     'x-timer': 'S1412450738.247154,VS0,VE0',
+26 silly registry.get     'x-cache-hits': '85',
+26 silly registry.get     'x-timer': 'S1412467084.984755,VS0,VE0',
 26 silly registry.get     vary: 'Accept',
 26 silly registry.get     'keep-alive': 'timeout=10, max=50',
 26 silly registry.get     connection: 'Keep-Alive' } ]
-27 silly addNameRange number 2 { name: 'jasmine-node', range: '*', hasData: true }
-28 silly addNameRange versions [ 'jasmine-node',
-28 silly addNameRange   [ '1.0.1',
+27 silly addNameRange number 2 { name: 'mocha', range: '*', hasData: true }
+28 silly addNameRange versions [ 'mocha',
+28 silly addNameRange   [ '0.0.1-alpha1',
+28 silly addNameRange     '0.0.1-alpha2',
+28 silly addNameRange     '0.0.1-alpha3',
+28 silly addNameRange     '0.0.1-alpha4',
+28 silly addNameRange     '0.0.1-alpha5',
+28 silly addNameRange     '0.0.1-alpha6',
+28 silly addNameRange     '0.0.1',
+28 silly addNameRange     '0.0.2',
+28 silly addNameRange     '0.0.3',
+28 silly addNameRange     '0.0.4',
+28 silly addNameRange     '0.0.5',
+28 silly addNameRange     '0.0.6',
+28 silly addNameRange     '0.0.7',
+28 silly addNameRange     '0.0.8',
+28 silly addNameRange     '0.1.0',
+28 silly addNameRange     '0.2.0',
+28 silly addNameRange     '0.3.0',
+28 silly addNameRange     '0.3.1',
+28 silly addNameRange     '0.3.2',
+28 silly addNameRange     '0.3.3',
+28 silly addNameRange     '0.3.4',
+28 silly addNameRange     '0.3.6',
+28 silly addNameRange     '0.4.0',
+28 silly addNameRange     '0.5.0',
+28 silly addNameRange     '0.6.0',
+28 silly addNameRange     '0.7.0',
+28 silly addNameRange     '0.7.1',
+28 silly addNameRange     '0.8.0',
+28 silly addNameRange     '0.8.1',
+28 silly addNameRange     '0.9.0',
+28 silly addNameRange     '0.10.0',
+28 silly addNameRange     '0.10.1',
+28 silly addNameRange     '0.10.2',
+28 silly addNameRange     '0.11.0',
+28 silly addNameRange     '0.12.0',
+28 silly addNameRange     '0.12.1',
+28 silly addNameRange     '0.13.0',
+28 silly addNameRange     '0.14.0',
+28 silly addNameRange     '0.14.1',
+28 silly addNameRange     '1.0.0',
+28 silly addNameRange     '1.0.1',
 28 silly addNameRange     '1.0.2',
 28 silly addNameRange     '1.0.3',
-28 silly addNameRange     '1.0.4',
-28 silly addNameRange     '1.0.5',
-28 silly addNameRange     '1.0.6',
-28 silly addNameRange     '1.0.7',
-28 silly addNameRange     '1.0.8',
-28 silly addNameRange     '1.0.9',
-28 silly addNameRange     '1.0.10',
-28 silly addNameRange     '1.0.11',
-28 silly addNameRange     '1.0.12',
-28 silly addNameRange     '1.0.13',
-28 silly addNameRange     '1.0.15',
-28 silly addNameRange     '1.0.16',
-28 silly addNameRange     '1.0.17',
-28 silly addNameRange     '1.0.18',
-28 silly addNameRange     '1.0.19',
-28 silly addNameRange     '1.0.20',
-28 silly addNameRange     '1.0.21',
-28 silly addNameRange     '1.0.22',
-28 silly addNameRange     '1.0.23',
-28 silly addNameRange     '1.0.24',
-28 silly addNameRange     '1.0.25',
-28 silly addNameRange     '1.0.26',
-28 silly addNameRange     '1.0.27',
-28 silly addNameRange     '1.0.28',
 28 silly addNameRange     '1.1.0',
 28 silly addNameRange     '1.2.0',
 28 silly addNameRange     '1.2.1',
 28 silly addNameRange     '1.2.2',
-28 silly addNameRange     '1.2.3',
 28 silly addNameRange     '1.3.0',
 28 silly addNameRange     '1.3.1',
+28 silly addNameRange     '1.3.2',
 28 silly addNameRange     '1.4.0',
+28 silly addNameRange     '1.4.1',
+28 silly addNameRange     '1.4.2',
+28 silly addNameRange     '1.4.3',
 28 silly addNameRange     '1.5.0',
 28 silly addNameRange     '1.6.0',
 28 silly addNameRange     '1.7.0',
 28 silly addNameRange     '1.7.1',
+28 silly addNameRange     '1.7.2',
+28 silly addNameRange     '1.7.3',
+28 silly addNameRange     '1.7.4',
 28 silly addNameRange     '1.8.0',
 28 silly addNameRange     '1.8.1',
+28 silly addNameRange     '1.8.2',
 28 silly addNameRange     '1.9.0',
-28 silly addNameRange     '1.9.1',
 28 silly addNameRange     '1.10.0',
-28 silly addNameRange     '1.10.1',
-28 silly addNameRange     '1.10.2',
 28 silly addNameRange     '1.11.0',
 28 silly addNameRange     '1.12.0',
 28 silly addNameRange     '1.12.1',
 28 silly addNameRange     '1.13.0',
-28 silly addNameRange     '1.13.1',
 28 silly addNameRange     '1.14.0',
-28 silly addNameRange     '1.14.1',
-28 silly addNameRange     '2.0.0',
-28 silly addNameRange     '1.14.2',
-28 silly addNameRange     '2.0.0-beta1',
-28 silly addNameRange     '2.0.0-beta2',
-28 silly addNameRange     '2.0.0-beta3',
-28 silly addNameRange     '1.14.3',
-28 silly addNameRange     '2.0.0-beta4',
-28 silly addNameRange     '1.14.4',
-28 silly addNameRange     '1.14.5',
-28 silly addNameRange     '1.0.0-rc1',
-28 silly addNameRange     '1.0.0-rc2',
-28 silly addNameRange     '1.0.0-rc3' ] ]
-29 verbose addNamed [ 'jasmine-node', '1.14.5' ]
-30 verbose addNamed [ '1.14.5', '1.14.5' ]
-31 silly lockFile 3c9ba918-jasmine-node-1-14-5 jasmine-node@1.14.5
-32 verbose lock jasmine-node@1.14.5 /Users/shant3washere/.npm/3c9ba918-jasmine-node-1-14-5.lock
-33 silly lockFile d0ec6374-ine-node-jasmine-node-1-14-5-tgz https://registry.npmjs.org/jasmine-node/-/jasmine-node-1.14.5.tgz
-34 verbose lock https://registry.npmjs.org/jasmine-node/-/jasmine-node-1.14.5.tgz /Users/shant3washere/.npm/d0ec6374-ine-node-jasmine-node-1-14-5-tgz.lock
-35 verbose addRemoteTarball [ 'https://registry.npmjs.org/jasmine-node/-/jasmine-node-1.14.5.tgz',
-35 verbose addRemoteTarball   '18e8397b856924ee77003666c3731b5aea50c39d' ]
-36 info retry fetch attempt 1 at 09:25:38
-37 verbose fetch to= /var/folders/nm/s0mfx0311111_pcxht240ktr0000gn/T/npm-5028-fWtrjIhx/registry.npmjs.org/jasmine-node/-/jasmine-node-1.14.5.tgz
-38 http GET https://registry.npmjs.org/jasmine-node/-/jasmine-node-1.14.5.tgz
-39 http 200 https://registry.npmjs.org/jasmine-node/-/jasmine-node-1.14.5.tgz
-40 silly lockFile d0ec6374-ine-node-jasmine-node-1-14-5-tgz https://registry.npmjs.org/jasmine-node/-/jasmine-node-1.14.5.tgz
-41 silly lockFile d0ec6374-ine-node-jasmine-node-1-14-5-tgz https://registry.npmjs.org/jasmine-node/-/jasmine-node-1.14.5.tgz
-42 silly lockFile 3c9ba918-jasmine-node-1-14-5 jasmine-node@1.14.5
-43 silly lockFile 3c9ba918-jasmine-node-1-14-5 jasmine-node@1.14.5
-44 silly lockFile b74de4f8-jasmine-node jasmine-node@
-45 silly lockFile b74de4f8-jasmine-node jasmine-node@
-46 silly resolved [ { name: 'jasmine-node',
-46 silly resolved     version: '1.14.5',
-46 silly resolved     description: 'DOM-less simple JavaScript BDD testing framework for Node',
-46 silly resolved     contributors: [ [Object] ],
-46 silly resolved     homepage: 'https://github.com/mhevery/jasmine-node',
-46 silly resolved     repository:
-46 silly resolved      { type: 'git',
-46 silly resolved        url: 'https://github.com/mhevery/jasmine-node.git' },
-46 silly resolved     keywords: [ 'testing', 'bdd' ],
-46 silly resolved     author: { name: 'Misko Hevery', email: 'misko@hevery.com' },
-46 silly resolved     maintainers: [ [Object], [Object] ],
-46 silly resolved     licenses: [ 'MIT' ],
+28 silly addNameRange     '1.15.0',
+28 silly addNameRange     '1.15.1',
+28 silly addNameRange     '1.16.0',
+28 silly addNameRange     '1.16.1',
+28 silly addNameRange     '1.16.2',
+28 silly addNameRange     '1.17.0',
+28 silly addNameRange     '1.17.1',
+28 silly addNameRange     '1.18.0',
+28 silly addNameRange     '1.18.1',
+28 silly addNameRange     '1.18.2',
+28 silly addNameRange     '1.19.0',
+28 silly addNameRange     '1.20.0',
+28 silly addNameRange     '1.20.1',
+28 silly addNameRange     '1.21.0',
+28 silly addNameRange     '1.21.1',
+28 silly addNameRange     '1.21.2',
+28 silly addNameRange     '1.21.3',
+28 silly addNameRange     '1.21.4' ] ]
+29 verbose addNamed [ 'mocha', '1.21.4' ]
+30 verbose addNamed [ '1.21.4', '1.21.4' ]
+31 silly lockFile a6953c81-mocha-1-21-4 mocha@1.21.4
+32 verbose lock mocha@1.21.4 /Users/shant3washere/.npm/a6953c81-mocha-1-21-4.lock
+33 silly lockFile 990b89ce-npmjs-org-mocha-mocha-1-21-4-tgz https://registry.npmjs.org/mocha/-/mocha-1.21.4.tgz
+34 verbose lock https://registry.npmjs.org/mocha/-/mocha-1.21.4.tgz /Users/shant3washere/.npm/990b89ce-npmjs-org-mocha-mocha-1-21-4-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/mocha/-/mocha-1.21.4.tgz',
+35 verbose addRemoteTarball   'e77d69c3773ba3e2b4fe6b628c28b5dd43880adc' ]
+36 info retry fetch attempt 1 at 13:58:05
+37 verbose fetch to= /var/folders/nm/s0mfx0311111_pcxht240ktr0000gn/T/npm-6587-PR0KWOuR/registry.npmjs.org/mocha/-/mocha-1.21.4.tgz
+38 http GET https://registry.npmjs.org/mocha/-/mocha-1.21.4.tgz
+39 http 200 https://registry.npmjs.org/mocha/-/mocha-1.21.4.tgz
+40 silly lockFile 990b89ce-npmjs-org-mocha-mocha-1-21-4-tgz https://registry.npmjs.org/mocha/-/mocha-1.21.4.tgz
+41 silly lockFile 990b89ce-npmjs-org-mocha-mocha-1-21-4-tgz https://registry.npmjs.org/mocha/-/mocha-1.21.4.tgz
+42 silly lockFile a6953c81-mocha-1-21-4 mocha@1.21.4
+43 silly lockFile a6953c81-mocha-1-21-4 mocha@1.21.4
+44 silly lockFile b9899f31-mocha mocha@
+45 silly lockFile b9899f31-mocha mocha@
+46 silly resolved [ { name: 'mocha',
+46 silly resolved     version: '1.21.4',
+46 silly resolved     description: 'simple, flexible, fun test framework',
+46 silly resolved     keywords: [ 'mocha', 'test', 'bdd', 'tdd', 'tap' ],
+46 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+46 silly resolved     contributors:
+46 silly resolved      [ [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object] ],
+46 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/mocha.git' },
+46 silly resolved     main: './index',
+46 silly resolved     browser: './mocha.js',
+46 silly resolved     bin: { mocha: './bin/mocha', _mocha: './bin/_mocha' },
+46 silly resolved     engines: { node: '>= 0.4.x' },
+46 silly resolved     scripts: { test: 'make test-all' },
 46 silly resolved     dependencies:
-46 silly resolved      { 'coffee-script': '>=1.0.1',
-46 silly resolved        'jasmine-reporters': '~1.0.0',
-46 silly resolved        'jasmine-growl-reporter': '~0.0.2',
-46 silly resolved        requirejs: '>=0.27.1',
-46 silly resolved        walkdir: '>= 0.0.1',
-46 silly resolved        underscore: '>= 1.3.1',
-46 silly resolved        gaze: '~0.3.2',
-46 silly resolved        mkdirp: '~0.3.5' },
-46 silly resolved     bin: { 'jasmine-node': 'bin/jasmine-node' },
-46 silly resolved     preferGlobal: true,
-46 silly resolved     main: 'lib/jasmine-node',
-46 silly resolved     scripts: { test: 'node lib/jasmine-node/cli.js spec' },
-46 silly resolved     devDependencies: {},
-46 silly resolved     bugs: { url: 'https://github.com/mhevery/jasmine-node/issues' },
-46 silly resolved     _id: 'jasmine-node@1.14.5',
-46 silly resolved     _shasum: '18e8397b856924ee77003666c3731b5aea50c39d',
-46 silly resolved     _from: 'jasmine-node@',
+46 silly resolved      { commander: '2.0.0',
+46 silly resolved        growl: '1.8.x',
+46 silly resolved        jade: '0.26.3',
+46 silly resolved        diff: '1.0.7',
+46 silly resolved        debug: '*',
+46 silly resolved        mkdirp: '0.3.5',
+46 silly resolved        glob: '3.2.3' },
+46 silly resolved     devDependencies: { 'coffee-script': '~1.7.1', should: '~4.0.0' },
+46 silly resolved     files:
+46 silly resolved      [ 'bin',
+46 silly resolved        'images',
+46 silly resolved        'lib',
+46 silly resolved        'index.js',
+46 silly resolved        'mocha.css',
+46 silly resolved        'mocha.js',
+46 silly resolved        'LICENSE' ],
+46 silly resolved     licenses: [ [Object] ],
+46 silly resolved     bugs: { url: 'https://github.com/visionmedia/mocha/issues' },
+46 silly resolved     homepage: 'https://github.com/visionmedia/mocha',
+46 silly resolved     _id: 'mocha@1.21.4',
+46 silly resolved     _shasum: 'e77d69c3773ba3e2b4fe6b628c28b5dd43880adc',
+46 silly resolved     _from: 'mocha@',
 46 silly resolved     _npmVersion: '1.4.9',
-46 silly resolved     _npmUser: { name: 'tebriel', email: 'tebriel@gmail.com' },
+46 silly resolved     _npmUser: { name: 'travisjeffery', email: 'tj@travisjeffery.com' },
+46 silly resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
 46 silly resolved     dist:
-46 silly resolved      { shasum: '18e8397b856924ee77003666c3731b5aea50c39d',
-46 silly resolved        tarball: 'http://registry.npmjs.org/jasmine-node/-/jasmine-node-1.14.5.tgz' },
+46 silly resolved      { shasum: 'e77d69c3773ba3e2b4fe6b628c28b5dd43880adc',
+46 silly resolved        tarball: 'http://registry.npmjs.org/mocha/-/mocha-1.21.4.tgz' },
 46 silly resolved     directories: {},
-46 silly resolved     _resolved: 'https://registry.npmjs.org/jasmine-node/-/jasmine-node-1.14.5.tgz' } ]
-47 info install jasmine-node@1.14.5 into /usr/local/lib
-48 info installOne jasmine-node@1.14.5
-49 verbose lib/node_modules/jasmine-node unbuild
-50 verbose tar unpack /Users/shant3washere/.npm/jasmine-node/1.14.5/package.tgz
-51 silly lockFile 5aad16db-al-lib-node-modules-jasmine-node tar:///usr/local/lib/node_modules/jasmine-node
-52 verbose lock tar:///usr/local/lib/node_modules/jasmine-node /Users/shant3washere/.npm/5aad16db-al-lib-node-modules-jasmine-node.lock
-53 silly lockFile 7886fb36--jasmine-node-1-14-5-package-tgz tar:///Users/shant3washere/.npm/jasmine-node/1.14.5/package.tgz
-54 verbose lock tar:///Users/shant3washere/.npm/jasmine-node/1.14.5/package.tgz /Users/shant3washere/.npm/7886fb36--jasmine-node-1-14-5-package-tgz.lock
+46 silly resolved     _resolved: 'https://registry.npmjs.org/mocha/-/mocha-1.21.4.tgz' } ]
+47 info install mocha@1.21.4 into /usr/local/lib
+48 info installOne mocha@1.21.4
+49 verbose lib/node_modules/mocha unbuild
+50 verbose tar unpack /Users/shant3washere/.npm/mocha/1.21.4/package.tgz
+51 silly lockFile 746f3f6f-usr-local-lib-node-modules-mocha tar:///usr/local/lib/node_modules/mocha
+52 verbose lock tar:///usr/local/lib/node_modules/mocha /Users/shant3washere/.npm/746f3f6f-usr-local-lib-node-modules-mocha.lock
+53 silly lockFile 11e9e4ac-ere-npm-mocha-1-21-4-package-tgz tar:///Users/shant3washere/.npm/mocha/1.21.4/package.tgz
+54 verbose lock tar:///Users/shant3washere/.npm/mocha/1.21.4/package.tgz /Users/shant3washere/.npm/11e9e4ac-ere-npm-mocha-1-21-4-package-tgz.lock
 55 silly gunzTarPerm modes [ '755', '644' ]
-56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/jasmine-node'
-56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/jasmine-node']
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/mocha'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/mocha']
 56 error   errno: 3,
 56 error   code: 'EACCES',
-56 error   path: '/usr/local/lib/node_modules/jasmine-node',
+56 error   path: '/usr/local/lib/node_modules/mocha',
 56 error   fstream_type: 'Directory',
-56 error   fstream_path: '/usr/local/lib/node_modules/jasmine-node',
+56 error   fstream_path: '/usr/local/lib/node_modules/mocha',
 56 error   fstream_class: 'DirWriter',
 56 error   fstream_stack:
 56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
@@ -197,17 +234,17 @@
 56 error      'Object.oncomplete (fs.js:107:15)' ] }
 57 error Please try running this command again as root/Administrator.
 58 error System Darwin 13.3.0
-59 error command "node" "/usr/local/bin/npm" "install" "jasmine-node" "-g"
+59 error command "node" "/usr/local/bin/npm" "install" "-g" "mocha"
 60 error cwd /Users/shant3washere/Devleague/Challenge1
 61 error node -v v0.10.32
 62 error npm -v 1.4.28
-63 error path /usr/local/lib/node_modules/jasmine-node
-64 error fstream_path /usr/local/lib/node_modules/jasmine-node
+63 error path /usr/local/lib/node_modules/mocha
+64 error fstream_path /usr/local/lib/node_modules/mocha
 65 error fstream_type Directory
 66 error fstream_class DirWriter
 67 error code EACCES
 68 error errno 3
-69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/jasmine-node'
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/mocha'
 70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
 70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
 70 error fstream_stack Object.oncomplete (fs.js:107:15)
